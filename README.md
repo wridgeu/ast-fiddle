@@ -6,6 +6,7 @@ Following along on [YT](https://youtu.be/tM_S-pa4xDk) or, alternatively, the [pa
 
 - [ASTs on Medium](https://medium.com/basecs/leveling-up-ones-parsing-game-with-asts-d7a6fc2400ff) 
 - [ASTs by Twilio](https://www.twilio.com/blog/abstract-syntax-trees)
+- [TS Transformer](https://levelup.gitconnected.com/writing-a-custom-typescript-ast-transformer-731e2b0b66e6)
 
 ## 🛠️ Tools
 
