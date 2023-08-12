@@ -3,9 +3,9 @@ import traverse from "@babel/traverse"; // v8.0.0-alpha.2
 // https://github.com/babel/babel/issues/13855#issuecomment-945123514 - v7.22.10
 // const traverse = _traverse.default 
 
-const example = "2 + (4 * 20)";
+const exampleCode = "2 + (4 * 20)";
 
-const ast = parse(example)
+const ast = parse(exampleCode);
 /**
  * Hint for Visitors:
  * 	Each visitor is passed the node wrapped in a `path` object which 
@@ -17,10 +17,10 @@ traverse(ast, {
 	// }
 	NumericLiteral: {
 		enter(path) {
-			console.log(`Entered ${path.node.value}`)
+			console.log(`Entered ${path.node.value}`);
 		},
 		exit(path) {
-			console.log(`Exited ${path.node.value}`)
+			console.log(`Exited ${path.node.value}`);
 		}
 	}
-})
+});

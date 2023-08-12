@@ -1,7 +1,7 @@
 import { parse } from "@babel/parser";
 
-const example = "2 + (4 * 20)";
+const exampleCode = "2 + (4 * 20)";
 
-const ast = parse(example)
+const ast = parse(exampleCode);
 
-console.log(ast.program.body[0])
+console.log(ast.program.body[0]);
