@@ -14,3 +14,4 @@ Following along on [YT](https://youtu.be/tM_S-pa4xDk) or, alternatively, the [pa
 - [ASTExplorer](https://astexplorer.net/)
 - [Shift-AST](https://shift-ast.org/) - <https://github.com/shapesecurity>
 - [ESTree Spec](https://github.com/estree/estree)
+- [jscodeshift](https://github.com/facebook/jscodeshift)
