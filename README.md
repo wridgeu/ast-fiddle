@@ -1,6 +1,6 @@
 # Understand ASTs
 
-Following along with on [YT](https://youtu.be/tM_S-pa4xDk) or, alternatively the [paid course](https://www.newline.co/courses/practical-abstract-syntax-trees).
+Following along on [YT](https://youtu.be/tM_S-pa4xDk) or, alternatively, the [paid course](https://www.newline.co/courses/practical-abstract-syntax-trees).
 
 ## Good Reads
 
