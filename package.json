@@ -9,7 +9,6 @@
     "traverse-js": "tsx js/traverse.js",
     "parse-ts": "tsx ./ts/parser.ts",
     "traverse-ts": "tsx ./ts/traverse.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "AST",
