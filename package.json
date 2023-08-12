@@ -8,7 +8,7 @@
     "parse-js": "tsx js/parser.js",
     "traverse-js": "tsx js/traverse.js",
     "parse-ts": "tsx ./ts/parser.ts",
-    "traverse-ts": "tsx ./ts/traverse.ts",
+    "traverse-ts": "tsx ./ts/traverse.ts"
   },
   "keywords": [
     "AST",
