@@ -5,8 +5,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "parse": "node parser.js",
-    "traverse": "node traverse.js",
+    "parse-js": "tsx js/parser.js",
+    "traverse-js": "tsx js/traverse.js",
+    "parse-ts": "tsx ./ts/parser.ts",
+    "traverse-ts": "tsx ./ts/traverse.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,5 +21,8 @@
   "dependencies": {
     "@babel/parser": "^7.22.10",
     "@babel/traverse": "8.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.7"
   }
 }
