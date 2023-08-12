@@ -9,6 +9,9 @@ dependencies:
     version: 8.0.0-alpha.2
 
 devDependencies:
+  '@types/babel__traverse':
+    specifier: ^7.20.1
+    version: 7.20.1
   tsx:
     specifier: ^3.12.7
     version: 3.12.7
@@ -63,7 +66,6 @@ packages:
   /@babel/helper-string-parser@7.22.5:
     resolution: {integrity: sha512-mM4COjgZox8U+JcXQwPijIZLElkgEpO5rsERVDJTc2qfCDfERyob6k5WegS14SX18IIjv+XD+GrqNumY5JRCDw==}
     engines: {node: '>=6.9.0'}
-    dev: false
 
   /@babel/helper-string-parser@8.0.0-alpha.2:
     resolution: {integrity: sha512-zdLAD8CTSuAARYmEwYzeQe42vhPXbzONxDjoR+MKPQ1wLCUJpd9HQC+VJb0wbeDdVZKThZXtyYgO+SPCEXtxtA==}
@@ -73,7 +75,6 @@ packages:
   /@babel/helper-validator-identifier@7.22.5:
     resolution: {integrity: sha512-aJXu+6lErq8ltp+JhkJUfk1MTGyuA4v7f3pA+BJ5HLfNC6nAQ0Cpi9uOquUj8Hehg0aUiHzWQbOVJGao6ztBAQ==}
     engines: {node: '>=6.9.0'}
-    dev: false
 
   /@babel/helper-validator-identifier@8.0.0-alpha.2:
     resolution: {integrity: sha512-us66RLKkCzBzNJ1TVAHe2euihYrYaXxbuQ7yJogKdBKBZ0R7gHEpB+e0ylaMGsmLzqlpPUyWWcz3OPTCsq1FDw==}
@@ -137,7 +138,6 @@ packages:
       '@babel/helper-string-parser': 7.22.5
       '@babel/helper-validator-identifier': 7.22.5
       to-fast-properties: 2.0.0
-    dev: false
 
   /@babel/types@8.0.0-alpha.2:
     resolution: {integrity: sha512-qc/+6ALxviKBu4nmgZ20ZkNpnzyQAVexvBtojqFOhOaIACGTFLGJyd/o04OtQFBdrhPnhzpz3GSDvFH4RGo1Zw==}
@@ -397,6 +397,12 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
+  /@types/babel__traverse@7.20.1:
+    resolution: {integrity: sha512-MitHFXnhtgwsGZWtT68URpOvLN4EREih1u3QtQiN4VdAxWKRVvGCSvw/Qth0M0Qq3pJpnGOu5JaM/ydK7OGbqg==}
+    dependencies:
+      '@babel/types': 7.22.10
+    dev: true
+
   /ansi-styles@4.3.0:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
@@ -535,7 +541,6 @@ packages:
   /to-fast-properties@2.0.0:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
-    dev: false
 
   /to-fast-properties@3.0.1:
     resolution: {integrity: sha512-/wtNi1tW1F3nf0OL6AqVxGw9Tr1ET70InMhJuVxPwFdGqparF0nQ4UWGLf2DsoI2bFDtthlBnALncZpUzOnsUw==}
