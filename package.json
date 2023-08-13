@@ -1,5 +1,5 @@
 {
-  "name": "asts",
+  "name": "ast-fiddle",
   "version": "1.0.0",
   "description": "Playing with ASTs",
   "private": true,
