@@ -5,6 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "nonbabel": "node js/esprima_escodegen.js",
     "parse-js": "tsx js/parser.js",
     "traverse-js": "tsx js/traverse.js",
     "parse-ts": "tsx ./ts/parser.ts",
@@ -19,7 +20,10 @@
   "license": "ISC",
   "dependencies": {
     "@babel/parser": "^7.22.10",
-    "@babel/traverse": "8.0.0-alpha.2"
+    "@babel/traverse": "8.0.0-alpha.2",
+    "escodegen": "^2.1.0",
+    "esprima": "^4.0.1",
+    "estree-walker": "^3.0.3"
   },
   "devDependencies": {
     "@types/babel__traverse": "^7.20.1",
